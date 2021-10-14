@@ -970,7 +970,8 @@ def crack2():
 	print("\033[1;97m[!] The cloning process has been completed")
 	print("\033[1;97m[!] Total CP/OK: "+str(len(cps))+"/"+str(len(oks)))
 	print("\033[1;97m[!] CP file saved as : cps.txt")
-	os.system('echo -e "--------------------------------------------"| lolcat')print("\033[1;97m[!] OK file saved as : oks.txt")
+	print("\033[1;97m[!] OK file saved as : oks.txt")
+        os.system('echo -e "--------------------------------------------"| lolcat')
 	raw_input("\033[1;97m[!] Press Enter To Main Menu Back")
 	menu()
 	
