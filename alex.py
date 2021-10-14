@@ -15,6 +15,7 @@ bd = random.randint(20000000.0, 30000000.0)
 sim = random.randint(20000.0, 40000.0)
 header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim), 'x-fb-connection-quality': 'EXCELLENT', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.3', 'x-fb-connection-type': 'unknown', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 logo = """
+\033[1;37m  ╔═══════════════════════════════════════════╗
 \033[1;37m    d8888b. d888888b .d8888. db   db db    db 
 \033[1;37m    88  `8D   `88'   88'  YP 88   88 88    88 
 \033[1;37m    88oobY'    88    `8bo.   88ooo88 88    88 
