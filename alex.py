@@ -16,12 +16,12 @@ sim = random.randint(20000.0, 40000.0)
 header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim), 'x-fb-connection-quality': 'EXCELLENT', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.3', 'x-fb-connection-type': 'unknown', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 logo = """
 \033[1;37m  ╔════════════════════════════════════╗
-\033[1;37m      .d8b.  db      d8888b. db    db
-\033[1;37m     d8' `8b 88      VP  `8D `8b  d8'
-\033[1;37m     88ooo88 88        oooY'  `8bd8'
-\033[1;37m     88~~~88 88        ~~~b.  .dPYb.
-\033[1;37m     88   88 88booo. db   8D .8P  Y8.
-\033[1;37m     YP   YP Y88888P Y8888P' YP    YP
+\033[1;37m    d8888b. d888888b .d8888. db   db db    db 
+\033[1;37m    88  `8D   `88'   88'  YP 88   88 88    88 
+\033[1;37m    88oobY'    88    `8bo.   88ooo88 88    88 
+\033[1;37m    88`8b      88      `Y8b. 88~~~88 88    88 
+\033[1;37m    88 `88.   .88.   db   8D 88   88 88b  d88 
+\033[1;37m    88   YD Y888888P `8888Y' YP   YP ~Y8888P' 
 \033[1;37m  ╚════════════════════════════════════╝
        [\033[1;97m\033[1;41mIF YOU DREAM IT CAN YOU DO IT\033[0m\x1b[1;37m]    
 \033[1;37m  ╔════════════════════════════════════╗
